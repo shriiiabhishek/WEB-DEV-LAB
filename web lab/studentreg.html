@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Abhishek Form</title>
+</head>
+<style>
+    body{
+        background-color: rgb(183, 255, 0);
+        margin: 0;
+        padding: 40px;
+    }
+    h1{
+        text-align: center;
+    }
+    form{
+        background-color: rgb(195, 49, 185);
+        margin: auto;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .form{
+        align-items: center;
+        margin: 10px;
+    }
+    .form{
+        align-items: center;
+        margin: 10px;
+    }
+    .form label{
+        width: 7px;
+        font-weight: bold;
+        color: black;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type=""],
+    select,
+    textarea{
+        width: 250px;
+        padding: 10px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+    input[type="checkbox"],
+    input[type="radio"]{
+        width: 10px;
+        padding: 10px;
+    }
+
+    .button{
+        text-align: center;
+    }
+
+    input[type="submit"]{
+        background-color: green;
+        color: white;
+    }
+    input[type="reset"]{
+        background-color: red;
+        color: white;
+    }
+
+
+</style>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div class="form">
+            <label>Student name:</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="form">
+            <label> contect number:</label>
+            <input type="number" placeholder="Enter contect number">
+        </div>
+
+        <div class="form">
+            <label>Email ID:</label>
+            <input type="email" placeholder="enter your email id">
+        </div>
+
+        <div class="form">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password">
+        </div>
+        
+        <div class="form">
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="male">male
+            <input type="radio" name="Gender" value="female">female
+            <input type="radio" name="Gender" value="transgender">transgender    
+        </div>
+
+        <div class="form">
+            <label>Skill</label>
+            <input type="checkbox" name="Skill" value="Python">Python
+            <input type="checkbox" name="Skill" value="Java">Java
+            <input type="checkbox" name="Skill" value="web development">web development
+             <input type="checkbox" name="Skill" value="Data science">Data science
+        </div>
+
+        <div class="form">
+            <label>Course:</label>
+            <select>
+               <option>B.Tech CSE</option>
+               <option>M.Tech CSE</option>
+               <option>B.Tech Cyber Security</option>
+               <option>MCA</option>
+               <option>B.Tech CSE - AI/ML or AI/DS</option>
+            </select>
+        </div>
+
+        <div class="form">
+            <label>Hobbies:</label>
+            <input type="checkbox" name="Hobbies" value="Singing">Singing
+            <input type="checkbox" name="Hobbies" value="Reading">Reading
+        </div>
+
+        <div class="form">
+            <label>D.O.B</label>
+            <input type="date">
+        </div>
+
+        <div class="form">
+            <label>Address</label>
+            <input type="text">
+        </div>
+
+        <div class="form">
+            <label>Button</label>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+
+    </form>
+</body>
+</html>

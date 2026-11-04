@@ -1,0 +1,104 @@
+ /* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f3c88;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Basic Formatting */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.important {
+    font-weight: bold;
+    color: darkred;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/* Advanced Formatting */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.letter-space {
+    letter-spacing: 5px;
+}
+
+.word-space {
+    word-spacing: 15px;
+}
+
+.line-space {
+    line-height: 2;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.shadow {
+    text-shadow: 3px 3px 5px gray;
+}
+
+.decorated {
+    text-decoration: underline overline;
+}
+
+.large-text {
+    font-size: 25px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.colored-text {
+    color: green;
+}
